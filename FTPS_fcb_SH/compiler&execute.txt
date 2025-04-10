@@ -1,0 +1,19 @@
+javac -encoding utf-8 -d .  -cp ".;C:\java\FTPS_fcb\*"  FTPSUtils.java
+
+javac -encoding utf-8 -d .  -cp ".;C:\java\FTPS_fcb\*"  connect.java
+java -cp ".;c:\java\FTPS_fcb\commons-net-3.8.0.jar" com.cti.common.ftps.connect "192.168.1.22" "2121" "cti" "1234555"
+
+
+javac -encoding utf-8 -d .  -cp ".;C:\java\FTPS_fcb\*"  upload.java
+java -cp ".;c:\java\FTPS_fcb\commons-net-3.8.0.jar" com.cti.common.ftps.upload "192.168.1.22" "2121" "cti" "1234" "C:\\java\\DIIOP\\FmAPI.java" "test5/A/B" ""
+
+
+javac -encoding utf-8 -d .  -cp ".;C:\java\FTPS_fcb\*"  download.java
+java -cp ".;c:\java\FTPS_fcb\commons-net-3.8.0.jar" com.cti.common.ftps.download "192.168.1.22" "2121" "cti" "1234" "test3/X/" "FmAPI.java" "D:\\ftp_ShareFolder\\download" ""
+
+javac -encoding utf-8 -d .  -cp ".;C:\java\FTPS_fcb\*"  rename.java
+java -cp ".;c:\java\FTPS_fcb\commons-net-3.8.0.jar" com.cti.common.ftps.rename "192.168.1.22" "2121" "cti" "1234" "test3/X/FmAPI.java" "test3/X/FmAPI_AAA.java"
+
+javac -encoding utf-8 -d .  -cp ".;C:\java\FTPS_fcb\*"  delete.java
+java -cp ".;c:\java\FTPS_fcb\commons-net-3.8.0.jar" com.cti.common.ftps.delete "192.168.1.22" "2121" "cti" "1234" "test3/X/FmAPI_AAA.java"
+  

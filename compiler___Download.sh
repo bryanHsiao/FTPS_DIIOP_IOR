@@ -1,0 +1,2 @@
+PATH=/usr/java8_64/bin;
+export PATH;  java -cp ".:/notesdata/bpm8/java/FTPS_DIIOP_fcb_IOR/commons-net-3.8.0.jar:/notesdata/bpm8/java/FTPS_DIIOP_fcb_IOR/NCSO.jar" com.cti.common.ftps.download_binary "10.14.88.219" "21" "10.14.89.33" "FTPSAccountSetup.nsf" "hdctest" "/FCB999" "testTom_SH_0824.txt" "/notesdata/bpm8/java/FTPS_DIIOP_fcb_IOR" ""

@@ -1,0 +1,1 @@
+PATH=/usr/java8_64/bin;  export PATH;  java -version;
