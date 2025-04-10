@@ -1,4 +1,4 @@
-# FTPS_DIIOP_fcb_IOR
+# FTPS_DIIOP_IOR
 
 一個用於整合 Lotus Notes 資料庫與 FTPS 的 Java 公用程式，可用於上傳、下載、刪除檔案，並支援從 Notes DB 讀取 FTPS 帳密資訊。
 
