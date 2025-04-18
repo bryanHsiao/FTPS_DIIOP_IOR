@@ -32,7 +32,9 @@ javac -encoding utf-8 -d .  -cp ".;C:\java\FTPS_DIIOP_fcb\*"  rename.java
 java -cp ".;c:\java\FTPS_DIIOP_fcb\commons-net-3.8.0.jar;c:\java\FTPS_DIIOP_fcb\NCSO.jar" com.cti.common.ftps.rename "192.168.1.22" "2121" "192.168.1.21" "FCB/FTPSAccountSetup.nsf" "ap02" "test3/X/FmAPI.java" "test3/X/FmAPI_AAA.java"
 =====================================
 javac -encoding utf-8 -d .  -cp ".;C:\java\FTPS_fcb\*"  delete.java
-java -cp ".;c:\java\FTPS_DIIOP_fcb\commons-net-3.8.0.jar;c:\java\FTPS_DIIOP_fcb\NCSO.jar" com.cti.common.ftps.delete "192.168.1.22" "2121" "192.168.1.21" "FCB/FTPSAccountSetup.nsf" "ap02" "test3/X/FmAPI_AAA.java"
+java -cp ".;c:\java\FTPS_DIIOP_fcb\commons-net-3.8.0.jar;c:\java\FTPS_DIIOP_fcb\NCSO.jar" com.cti.common.ftps.delete "192.168.1.22" "2121" "192.168.1.21" "FCB/FTPSAccountSetup.nsf" "ap02" "test3/X/FmAPI/_AAA.java"
+
+java -cp ".;c:\java\FTPS_DIIOP_fcb\commons-net-3.8.0.jar;c:\java\FTPS_DIIOP_fcb\NCSO.jar" com.cti.common.ftps.delete "192.168.1.22" "2121" "192.168.1.21" "FCB/FTPSAccountSetup.nsf" "ap02" "EForm/056002/Import_056002202500031_upload_sample.txt"
   
 =====================================
 javac -encoding utf-8 -d .  -cp ".;C:\java\FTPS_fcb\*"  mput.java
@@ -41,6 +43,7 @@ java -cp ".;c:\java\FTPS_DIIOP_fcb\commons-net-3.8.0.jar;c:\java\FTPS_DIIOP_fcb\
 javac -encoding utf-8 -d .  -cp ".;C:\java\FTPS_fcb\*"  mget.java
 java -cp ".;c:\java\FTPS_DIIOP_fcb\commons-net-3.8.0.jar;c:\java\FTPS_DIIOP_fcb\NCSO.jar" com.cti.common.ftps.mget "192.168.1.22" "2121" "192.168.1.21" "FCB/FTPSAccountSetup.nsf" "ap02" "testABCD/A/B" "*.txt" "D:\\ftp_ShareFolder\\download"
 
+java -cp ".;c:\java\FTPS_DIIOP_fcb\commons-net-3.8.0.jar;c:\java\FTPS_DIIOP_fcb\NCSO.jar" com.cti.common.ftps.mget "192.168.1.22" "2121" "192.168.1.21" "FCB/FTPSAccountSetup.nsf" "ap02" "EForm/056002/Import" "*.txt" "D:\\Lotus\\Domino\\data\\FCB\\EForm\\056002\\Export\\"
 =====================================
 javac -encoding utf-8 -d .  -cp ".;C:\java\FTPS_fcb\*"  mdelete.java
-java -cp ".;c:\java\FTPS_DIIOP_fcb\commons-net-3.8.0.jar;c:\java\FTPS_DIIOP_fcb\NCSO.jar" com.cti.common.ftps.mdelete "192.168.1.22" "2121" "192.168.1.21" "FCB/FTPSAccountSetup.nsf" "ap02" "testABCD/A/B" "*.txt"
+java -cp ".;c:\java\FTPS_DIIOP_fcb\commons-net-3.8.0.jar;c:\java\FTPS_DIIOP_fcb\NCSO.jar" com.cti.common.ftps.mdelete "192.168.1.22" "2121" "192.168.1.21" "FCB/FTPSAccountSetup.nsf" "ap02" "/testABCD/A/B" "^*.txt"
